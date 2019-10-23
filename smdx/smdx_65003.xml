@@ -1,0 +1,26 @@
+<sunSpecModels v="1">
+  <!-- 65003: st2 -->
+  <model id="65003" len="2" >
+    <block len="2">
+      <point id="VTABLE3_FF"  offset="0"   type="uint16" mandatory="true" />
+      <point id="VTABLE3_NFE" offset="1"   type="uint16" mandatory="true" />
+    </block>
+  </model>
+  <strings id="65003" locale="pt">
+    <model>
+      <label>Status Grupo 2</label>
+      <description>Esse modelo possui os valores de status grupo 2</description>
+      <notes></notes>
+    </model>
+    <point id="VTABLE3_FF">
+      <label>Falta de Fase</label>
+      <description>Falta de fase</description>
+      <notes></notes>
+    </point>
+    <point id="VTABLE3_NFE">
+      <label>Número de Fases na Entrada</label>
+      <description>Número de fases na entrada</description>
+      <notes></notes>
+    </point>
+  </strings>
+</sunSpecModels>

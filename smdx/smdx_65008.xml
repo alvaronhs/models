@@ -1,0 +1,186 @@
+<sunSpecModels v="1">
+  <!-- 65008: sgp -->
+  <model id="65008" len="20" >
+    <block len="20">
+      <point id="VTABLE8_PPR"    offset="0"  type="int16"   sf="VTABLE8_FE_FP" mandatory="true" />
+      <point id="VTABLE8_CB"     offset="1"  type="enum16"  mandatory="true" />
+        <symbol id="AUTOMATICO">0</symbol>
+        <symbol id="TIME_SHIFT">1</symbol>
+        <symbol id="ZERO_FEED_IN">2</symbol>
+        <symbol id="AUTO_CONSUMO">3</symbol>
+        <symbol id="PEAK_SHAVING">4</symbol>
+        <symbol id="FILTRO_ATIVO">5</symbol>
+        <symbol id="LIMITACAO_DE_POTENCIA">6</symbol>
+        <symbol id="FATOR_DE_POTENCIA_FIXO">7</symbol>
+      <point id="VTABLE8_PR"     offset="2"  type="uint16"  sf="VTABLE8_FE_PLP" mandatory="true" />
+      <point id="VTABLE8_LP"     offset="3"  type="uint16"  sf="VTABLE8_FE_PLP" mandatory="true" />
+      <point id="VTABLE8_AR"     offset="4"  type="uint16"  mandatory="true" />
+      <point id="VTABLE8_EFP"    offset="5"  type="uint16"  mandatory="true" />
+        <symbol id="FATOR_DE_POTENCIA_FIXO">0</symbol>
+        <symbol id="CURVA_1">1</symbol>
+        <symbol id="CURVA_2">2</symbol>
+        <symbol id="CURVA_2_COM_LIMITACAO_DE_POTENCIA_REATIVA">3</symbol>
+      <point id="VTABLE8_TAFP"   offset="6"  type="uint16"  mandatory="true" />
+      <point id="VTABLE8_TDFP"   offset="7"  type="uint16"  mandatory="true" />
+      <point id="VTABLE8_PAFP"   offset="8"  type="uint16"  sf="VTABLE8_FE_PPA" mandatory="true" />
+      <point id="VTABLE8_PBFP"   offset="9"  type="uint16"  sf="VTABLE8_FE_PPA" mandatory="true" />
+      <point id="VTABLE8_PCFP"   offset="10"  type="uint16"  sf="VTABLE8_FE_FP" mandatory="true" />
+      <point id="VTABLE8_PCPR"   offset="11"  type="uint16"  mandatory="true" />
+      <point id="VTABLE8_PCFLP"  offset="12"  type="uint16"  mandatory="true" />
+      <point id="VTABLE8_GP"     offset="13"  type="uint16"  sf="VTABLE8_FE_GLP" mandatory="true" />
+      <point id="VTABLE8_JTEC"   offset="14"  type="uint16"  mandatory="true" />
+      <point id="VTABLE8_TD"     offset="15"  type="uint16"  mandatory="true" />
+      <point id="VTABLE8_FE_FP"  offset="16"  type="sunssf"  mandatory="true" />
+      <point id="VTABLE8_FE_PLP" offset="17"  type="sunssf"  mandatory="true" />
+      <point id="VTABLE8_FE_PPA" offset="18"  type="sunssf"  mandatory="true" />
+      <point id="VTABLE8_FE_GLP" offset="19"  type="sunssf"  mandatory="true" />
+    </block>
+  </model>
+  <strings id="65008" locale="pt">
+    <model>
+      <label>Solar Grid Parameters</label>
+      <description>Esse modelo possui os valores de Solar Grid Parameters</description>
+      <notes></notes>
+    </model>
+    <point id="VTABLE8_PPR">
+      <label>Fator de potência</label>
+      <description>Fator de potência x10.000 (0,9 capacitivo a 0,9 indutivo)</description>
+      <notes></notes>
+    </point>
+    <point id="VTABLE8_CB">
+      <label>Comandos para o Gerenciamento de Energia</label>
+      <description>Comandos para gerenciamento de energia 0 – Automático 1 – Time Shift 2 – Zero Feed In 3 – Auto Consumo 4 – Peak Shaving 5 – Filtro Ativo 6 – Limitação de Potência 7 – Fator de Potência Fixo</description>
+      <notes></notes>
+      <symbol id="AUTOMATICO">
+        <label>Automático</label>
+        <description></description>
+        <notes></notes>
+      </symbol>
+      <symbol id="TIME_SHIFT">
+        <label>Time Shift</label>
+        <description></description>
+        <notes></notes>
+      </symbol>
+      <symbol id="ZERO_FEED_IN">
+        <label>Zero Feed In</label>
+        <description></description>
+        <notes></notes>
+      </symbol>
+      <symbol id="AUTO_CONSUMO">
+        <label>Auto Consumo</label>
+        <description></description>
+        <notes></notes>
+      </symbol>
+      <symbol id="PEAK_SHAVING">
+        <label>Peak Shaving</label>
+        <description></description>
+        <notes></notes>
+      </symbol>
+      <symbol id="FILTRO_ATIVO">
+        <label>Filtro Ativo</label>
+        <description></description>
+        <notes></notes>
+      </symbol>
+      <symbol id="LIMITACAO_DE_POTENCIA">
+        <label>Limitação de Potência</label>
+        <description></description>
+        <notes></notes>
+      </symbol>
+      <symbol id="FATOR_DE_POTENCIA_FIXO">
+        <label>Fator de Potência Fixo</label>
+        <description></description>
+        <notes></notes>
+      </symbol>
+    </point>
+    <point id="VTABLE8_PR">
+      <label>Limitação de Potência Ativa Injetada</label>
+      <description>Valor para limitação de potência ativa injetada na rede CA em relação a potência nominal do equipamento</description>
+      <notes></notes>
+    </point>
+    <point id="VTABLE8_LP">
+      <label>Limite de Potência Ativa Consumida</label>
+      <description>Valor para limitação de potência ativa consumida da rede CA em relação a potência nominal do equipamento</description>
+      <notes></notes>
+    </point>
+    <point id="VTABLE8_AR">
+      <label>Acoplamento com a Rede</label>
+      <description>Acoplamento com a rede CA</description>
+      <notes></notes>
+    </point>
+    <point id="VTABLE8_EFP">
+      <label>Enumerador para Curva FP</label>
+      <description>Enumerador 0 – Fator de Potência Fixo 1 – Curva 1 2 – Curva 2  3 – Curva 2 com limitação de potência reativa</description>
+      <notes></notes>
+      <symbol id="FATOR_DE_POTENCIA_FIXO">
+        <label>Fator de Potência Fixo</label>
+        <description></description>
+        <notes></notes>
+      </symbol>
+      <symbol id="CURVA_1">
+        <label>Curva 1</label>
+        <description></description>
+        <notes></notes>
+      </symbol>
+      <symbol id="CURVA_2">
+        <label>Curva 2</label>
+        <description></description>
+        <notes></notes>
+      </symbol>
+      <symbol id="CURVA_2_COM_LIMITACAO_DE_POTENCIA_REATIVA">
+        <label>Curva 2 com Limitação de Potência Reativa</label>
+        <description></description>
+        <notes></notes>
+      </symbol>
+    </point>
+    <point id="VTABLE8_TAFP">
+      <label>Porcentagem de tensão para ativação da curva de fator de potência </label>
+      <description>Porcentagem de tensão em relação a tensão nominal do equipamento para ativação da curva de fator de potência </description>
+      <notes></notes>
+    </point>
+    <point id="VTABLE8_TDFP">
+      <label>Porcentagem de tensão para desativação da curva de fator de potência </label>
+      <description>Porcentagem de tensão em relação a tensão nominal do equipamento para desativação da curva de fator de potência </description>
+      <notes></notes>
+    </point>
+    <point id="VTABLE8_PAFP">
+      <label>Ponto A Curva FP</label>
+      <description>Porcentagem de potência ativa em relação a potência nominal do equipamento para ativação da curva de fator de potência </description>
+      <notes></notes>
+    </point>
+    <point id="VTABLE8_PBFP">
+      <label>Ponto B Curva FP</label>
+      <description>Porcentagem de potência ativa em relação a potência nominal do equipamento para iniciar a modificação do fator de potência injetado na rede</description>
+      <notes></notes>
+    </point>
+    <point id="VTABLE8_PCFP">
+      <label>Ponto C FP Curva FP</label>
+      <description>Fator de potência x10.000 (0,9 capacitivo a 0,9 indutivo) para quando o inversor estiver injetando 100% da potencia nominal operando em modo de funcionamento de acordo com a Curva 1 para fator de potência</description>
+      <notes></notes>
+    </point>
+    <point id="VTABLE8_PCPR">
+      <label>Ponto C % Pot Reativa Curva FP</label>
+      <description>Percentual de potência reativa em relação a potência nominal do equipamento (% / 100)</description>
+      <notes></notes>
+    </point>
+    <point id="VTABLE8_PCFLP">
+      <label>Ponto C % Lim Pot Reativa Curva FP</label>
+      <description>Percentual de potência reativa em relação a potência nominal do equipamento (% / 100)</description>
+      <notes></notes>
+    </point>
+    <point id="VTABLE8_GP">
+      <label>Gradiente para limitação da potência ativa injetada na rede</label>
+      <description>% da potência nominal por segundo</description>
+      <notes></notes>
+    </point>
+    <point id="VTABLE8_JTEC">
+      <label>Janela de tempo para a execução do comando</label>
+      <description>Atraso de tempo em segundos para a execução do comando de limitação de potência ativa injetada na rede</description>
+      <notes></notes>
+    </point>
+    <point id="VTABLE8_TD">
+      <label>Janela de tempo para desconexão da rede elétrica</label>
+      <description>Atraso de tempo em segundos para a desconexão da rede elétrica</description>
+      <notes></notes>
+    </point>
+  </strings>
+</sunSpecModels>

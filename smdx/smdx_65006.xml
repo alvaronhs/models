@@ -1,0 +1,39 @@
+<sunSpecModels v="1">
+  <!-- 65006: sip -->
+  <model id="65006" len="8" >
+    <block len="8">
+      <point id="VTABLE6_TB"     offset="0"   type="uint16" sf="VTABLE6_FE_TB" mandatory="true"/>
+      <point id="VTABLE6_TT"     offset="1"   type="uint32" mandatory="true"/>
+      <point id="VTABLE6_TG"     offset="3"   type="uint32" mandatory="true"/>
+      <point id="VTABLE6_UP"     offset="5"   type="uint32" mandatory="true"/>
+      <point id="VTABLE6_FE_TB"  offset="7"   type="sunssf" mandatory="true"/>
+    </block>
+  </model>
+  <strings id="65006" locale="pt">
+    <model>
+      <label>Solar Inverter Parameters</label>
+      <description>Esse modelo possui os valores de solar inverter parameters</description>
+      <notes></notes>
+    </model>
+    <point id="VTABLE6_TB">
+      <label>Tensão do Barramento</label>
+      <description>Tensão do barramento (0,1 V)</description>
+      <notes></notes>
+    </point>
+    <point id="VTABLE6_TT">
+      <label>Tempo de Trabalho</label>
+      <description>Tempo total de funcionamento do equipamento (h)</description>
+      <notes></notes>
+    </point>
+    <point id="VTABLE6_TG">
+      <label>Tempo em Gridtie</label>
+      <description>Tempo total de funcionamento do equipamento injetando energia na rede elétrica (h)</description>
+      <notes></notes>
+    </point>
+    <point id="VTABLE6_UP">
+      <label>Uptime</label>
+      <description>Tempo de funcionamento do equipamento (h)</description>
+      <notes></notes>
+    </point>
+  </strings>
+</sunSpecModels>

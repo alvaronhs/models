@@ -1,0 +1,98 @@
+<sunSpecModels v="1">
+  <!-- 65001: nom -->
+  <model id="65001" len="16" >
+    <block len="16">
+      <point id="VTABLE1_TEN"         offset="0"   type="uint16" units="V" mandatory="true" />
+      <point id="VTABLE1_FEN"         offset="1"   type="uint16" units="Hz" mandatory="true" />
+      <point id="VTABLE1_TSN"         offset="2"   type="uint16" units="V" mandatory="true" />
+      <point id="VTABLE1_FSN"         offset="3"   type="uint16" units="Hz" mandatory="true" />
+      <point id="VTABLE1_PapN"        offset="4"   type="uint32" units="W" mandatory="true" />
+      <point id="VTABLE1_PAN"         offset="6"   type="uint32" units="W" mandatory="true" />
+      <point id="VTABLE1_TBB"         offset="8"   type="uint16" units="s" mandatory="true" />
+      <point id="VTABLE1_BZZ"         offset="9"   type="uint16" mandatory="true" />
+      <point id="VTABLE1_SUBT"        offset="10"  type="uint16" units="V" mandatory="true" />
+      <point id="VTABLE1_SOBT"        offset="11"  type="uint16" units="V" mandatory="true" />
+      <point id="VTABLE1_BDATE_MON"   offset="12"  type="uint16" mandatory="true" />
+      <point id="VTABLE1_BDATE_DAY"   offset="13"  type="uint16" mandatory="true" />
+      <point id="VTABLE1_BDATE_YEA"   offset="14"  type="uint16" mandatory="true" />
+      <point id="VTABLE1_LDATE"       offset="15"  type="uint16" mandatory="true" />
+    </block>
+  </model>
+  <strings id="65001" locale="pt">
+    <model>
+      <label>Valores Nominais (NOM) </label>
+      <description>Esse modelo possui os valores nominais</description>
+      <notes></notes>
+    </model>
+    <point id="VTABLE1_TEN">
+      <label>Tensão de Entrada Nominal</label>
+      <description>Tensão de entrada nominal (V)</description>
+      <notes></notes>
+    </point>
+    <point id="VTABLE1_FEN">
+      <label>Frequência de Entrada Nominal</label>
+      <description>Frequencia da entrada nominal (0,1 Hz)</description>
+      <notes></notes>
+    </point>
+    <point id="VTABLE1_TSN">
+      <label>Tensão de Saída Nominal</label>
+      <description>Tensão de saída nominal (V)</description>
+      <notes></notes>
+    </point>
+    <point id="VTABLE1_FSN">
+      <label>Frequência de Saída Nominal</label>
+      <description>Frequência de saída nominal (0,1 Hz)</description>
+      <notes></notes>
+    </point>
+    <point id="VTABLE1_PapN">
+      <label>Potência Aparente Nominal</label>
+      <description>Potência aparente nominal (VA)</description>
+      <notes></notes>
+    </point>
+    <point id="VTABLE1_PAN">
+      <label>Potência Ativa Nominal</label>
+      <description>Potência ativa nominal (W)</description>
+      <notes></notes>
+    </point>
+    <point id="VTABLE1_TBB">
+      <label>Tempo de Bateria Baixa</label>
+      <description>Tempo em bateria baixa (s)</description>
+      <notes></notes>
+    </point>
+    <point id="VTABLE1_BZZ">
+      <label>Buzzer</label>
+      <description>Acionamento do buzzer</description>
+      <notes></notes>
+    </point>
+    <point id="VTABLE1_SUBT">
+      <label>Subtensão</label>
+      <description>Valor da tensão para ilhamento por subtensão (V)</description>
+      <notes></notes>
+    </point>
+    <point id="VTABLE1_SOBT">
+      <label>Sobretensão</label>
+      <description>Valor da tensão para ilhamento por sobretensão (V)</description>
+      <notes></notes>
+    </point>
+    <point id="VTABLE1_BDATE_MON">
+      <label>Data da Bateria - Mês</label>
+      <description>Data de reposição do bando de baterias - mês</description>
+      <notes></notes>
+    </point>
+    <point id="VTABLE1_BDATE_DAY">
+      <label>Data da Bateria - Dia</label>
+      <description>Data de reposição do bando de baterias - dia</description>
+      <notes></notes>
+    </point>
+    <point id="VTABLE1_BDATE_YEA">
+      <label>Data da Bateria - Ano</label>
+      <description>Data de reposição do bando de baterias - ano</description>
+      <notes></notes>
+    </point>
+    <point id="VTABLE1_LDATE">
+      <label>Tempo de Vida da Bateria</label>
+      <description>Tempo de vida do bano de baterias (dias)</description>
+      <notes></notes>
+    </point>
+  </strings>
+</sunSpecModels>

@@ -1,0 +1,161 @@
+<sunSpecModels v="1">
+  <!-- 65005: sep -->
+  <model id="65005" len="20" >
+    <block len="20">
+      <point id="VTABLE5_EIR"       offset="0"   type="uint32" sf="VTABLE5_FE_E" mandatory="true" />
+      <point id="VTABLE5_EGSA"      offset="2"   type="uint32" sf="VTABLE5_FE_E" mandatory="true" />
+      <point id="VTABLE5_EGSB"      offset="4"   type="uint32" sf="VTABLE5_FE_E" mandatory="true" />
+      <point id="VTABLE5_EGSC"      offset="6"   type="uint32" sf="VTABLE5_FE_E" mandatory="true" />
+      <point id="VTABLE5_EGSD"      offset="8"   type="uint32" sf="VTABLE5_FE_E" mandatory="true" />
+      <point id="VTABLE5_EGSE"      offset="10"  type="uint32" sf="VTABLE5_FE_E" mandatory="true" />
+      <point id="VTABLE5_EGSF"      offset="12"  type="uint32" sf="VTABLE5_FE_E" mandatory="true" />
+      <point id="VTABLE5_EGA"       offset="14"  type="uint32" sf="VTABLE5_FE_E" mandatory="true" />
+      <point id="VTABLE5_ECB"       offset="16"  type="uint32" sf="VTABLE5_FE_E" mandatory="true" />
+      <point id="VTABLE5_FE_E"      offset="18"  type="sunssf" sf="VTABLE5_FE_E" mandatory="true" />
+      <point id="VTABLE5_PAD"       offset="19"  type="pad"/>
+    </block>
+  </model>
+  <strings id="65005" locale="pt">
+    <model>
+      <label>Solar Energy Parameters</label>
+      <description>Esse modelo possui os valores de Solar Energy Parameters</description>
+      <notes></notes>
+    </model>
+    <point id="VTABLE5_UEIR">
+      <label>Unidade Energia Injetada na Rede</label>
+      <description>Fator de escala do valor acumulado de energia injetada na rede</description>
+      <notes></notes>
+    </point>
+    <point id="VTABLE5_EIR">
+      <label>Energia Injetada na Rede</label>
+      <description>Acumulado de energia injetada na rede</description>
+      <notes></notes>
+    </point>
+    <point id="VTABLE5_FE_EIR">
+      <label>Fator de Escala EIR</label>
+      <description>Fator de escala para energia injetada na rede</description>
+      <notes></notes>
+    </point>
+    <point id="VTABLE5_UESA">
+      <label>Unidade Energia String A</label>
+      <description>Unidade do valor acumulado de energia fotovoltaica fornecida pela string A</description>
+      <notes></notes>
+    </point>
+    <point id="VTABLE5_EGSA">
+      <label>Energia Gerada String A</label>
+      <description>Acumulado de energia fotovoltaica fornecida pela string A</description>
+      <notes></notes>
+    </point>
+    <point id="VTABLE5_FE_EGSA">
+      <label>Fator de Escala EGSA</label>
+      <description>Fator de escala da energia fotovoltaica fornecida pela string A</description>
+      <notes></notes>
+    </point>
+    <point id="VTABLE5_UESB">
+      <label>Unidade Energia String B</label>
+      <description>Unidade do valor acumulado de energia fotovoltaica fornecida pela string B</description>
+      <notes></notes>
+    </point>
+    <point id="VTABLE5_EGSB">
+      <label>Energia Gerada String B</label>
+      <description>Acumulado de energia fotovoltaica fornecida pela string B</description>
+      <notes></notes>
+    </point>
+    <point id="VTABLE5_FE_EGSB">
+      <label>Fator de Escala EGSB</label>
+      <description>Fator de escala da energia fotovoltaica fornecida pela string B</description>
+      <notes></notes>
+    </point>
+    <point id="VTABLE5_UESC">
+      <label>Unidade Energia String C</label>
+      <description>Unidade do valor acumulado de energia fotovoltaica fornecida pela string C</description>
+      <notes></notes>
+    </point>
+    <point id="VTABLE5_EGSC">
+      <label>Energia Gerada String C</label>
+      <description>Acumulado de energia fotovoltaica fornecida pela string C</description>
+      <notes></notes>
+    </point>
+    <point id="VTABLE5_FE_EGSC">
+      <label>Fator de Escala EGSC</label>
+      <description>Fator de escala da energia fotovoltaica fornecida pela string C</description>
+      <notes></notes>
+    </point>
+    <point id="VTABLE5_UESD">
+      <label>Unidade Energia String D</label>
+      <description>Unidade do valor acumulado de energia fotovoltaica fornecida pela string D</description>
+      <notes></notes>
+    </point>
+    <point id="VTABLE5_EGSD">
+      <label>Energia Gerada String D</label>
+      <description>Acumulado de energia fotovoltaica fornecida pela string D</description>
+      <notes></notes>
+    </point>
+    <point id="VTABLE5_FE_EGSD">
+      <label>Fator de Escala EGSD</label>
+      <description>Fator de escala da energia fotovoltaica fornecida pela string D</description>
+      <notes></notes>
+    </point>
+    <point id="VTABLE5_UESE">
+      <label>Unidade Energia String E</label>
+      <description>Unidade do valor acumulado de energia fotovoltaica fornecida pela string E</description>
+      <notes></notes>
+    </point>
+    <point id="VTABLE5_EGSE">
+      <label>Energia Gerada String E</label>
+      <description>Acumulado de energia fotovoltaica fornecida pela string E</description>
+      <notes></notes>
+    </point>
+    <point id="VTABLE5_FE_EGSE">
+      <label>Fator de Escala EGSE</label>
+      <description>Fator de escala da energia fotovoltaica fornecida pela string E</description>
+      <notes></notes>
+    </point>
+    <point id="VTABLE5_UESF">
+      <label>Unidade Energia String F</label>
+      <description>Unidade do valor acumulado de energia fotovoltaica fornecida pela string F</description>
+      <notes></notes>
+    </point>
+    <point id="VTABLE5_EGSF">
+      <label>Energia Gerada String F</label>
+      <description>Acumulado de energia fotovoltaica fornecida pela string F</description>
+      <notes></notes>
+    </point>
+    <point id="VTABLE5_FE_EGSF">
+      <label>Fator de Escala EGSF</label>
+      <description>Fator de escala da energia fotovoltaica fornecida pela string F</description>
+      <notes></notes>
+    </point>
+    <point id="VTABLE5_UEA">
+      <label>Unidade Energia Auxiliar</label>
+      <description>Fator de escala do valor acumulado de energia utilizado pela saída auxiliar</description>
+      <notes></notes>
+    </point>
+    <point id="VTABLE5_EGA">
+      <label>Energia Gerada Auxiliar</label>
+      <description>Acumulado de energia utilizado pela saída auxiliar</description>
+      <notes></notes>
+    </point>
+    <point id="VTABLE5_FE_EGA">
+      <label>Fator de Escala EGA</label>
+      <description>Fator de escala para energia utilizada pela saída auxiliar</description>
+      <notes></notes>
+    </point>
+    <point id="VTABLE5_UEB">
+      <label>Unidade Energia Bateria</label>
+      <description>Fator de escala do valor acumulado de energia utilizado pela bateria</description>
+      <notes></notes>
+    </point>
+    <point id="VTABLE5_ECB">
+      <label>Energia Consumida Bateria</label>
+      <description>Acumulado de energia utilizado pela bateria</description>
+      <notes></notes>
+    </point>
+    <point id="VTABLE5_FE_ECB">
+      <label>Fator de Escala ECB</label>
+      <description>Fator de escala para energia utilizada pela bateria</description>
+      <notes></notes>
+    </point>
+   
+  </strings>
+</sunSpecModels>

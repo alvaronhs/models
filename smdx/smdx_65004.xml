@@ -1,0 +1,126 @@
+<sunSpecModels v="1">
+  <!-- 65004: st3 -->
+  <model id="65004" len="22" >
+    <block len="22">
+      <point id="VTABLE4_FontS"   offset="0"   type="uint16" mandatory="true" />
+        <symbol id="NORMAL">0</symbol>
+        <symbol id="BATERIA">1</symbol>
+        <symbol id="BYPASS">2</symbol>
+      <point id="VTABLE4_FreqS"   offset="1"   type="uint16" sf="VTABLE4_FE_F" mandatory="true" />
+      <point id="VTABLE4_NFS"     offset="2"   type="uint16" mandatory="true" />
+      <point id="VTABLE4_TS1"     offset="3"   type="uint16" sf="VTABLE4_FE_T" mandatory="true" />
+      <point id="VTABLE4_CS1"     offset="4"   type="uint16" sf="VTABLE4_FE_C" mandatory="true" />
+      <point id="VTABLE4_PAS1"    offset="5"   type="uint32" mandatory="true" />
+      <point id="VTABLE4_C1"      offset="7"   type="uint16" mandatory="true" />
+      <point id="VTABLE4_TS2"     offset="8"   type="uint16" sf="VTABLE4_FE_T" mandatory="true" />
+      <point id="VTABLE4_CS2"     offset="9"   type="uint16" sf="VTABLE4_FE_C" mandatory="true" />
+      <point id="VTABLE4_PAS2"    offset="10"  type="uint32" mandatory="true" />
+      <point id="VTABLE4_C2"      offset="12"  type="uint16" mandatory="true" />
+      <point id="VTABLE4_TS3"     offset="13"  type="uint16" sf="VTABLE4_FE_T" mandatory="true" />
+      <point id="VTABLE4_CS3"     offset="14"  type="uint16" sf="VTABLE4_FE_C" mandatory="true" />
+      <point id="VTABLE4_PAS3"    offset="15"  type="uint32" mandatory="true" />
+      <point id="VTABLE4_C3"      offset="17"  type="uint16" mandatory="true" />
+      <point id="VTABLE4_FE_T"    offset="18"  type="sunssf" mandatory="true" />
+      <point id="VTABLE4_FE_F"    offset="19"  type="sunssf" mandatory="true" />
+      <point id="VTABLE4_FE_C"    offset="20"  type="sunssf" mandatory="true" />
+      <point id="VTABLE4_PAD"     offset="21"  type="pad"/>
+    </block>
+  </model>
+  <strings id="65004" locale="pt">
+    <model>
+      <label>Status Grupo 3</label>
+      <description>Esse modelo possui os valores de status grupo 3</description>
+      <notes></notes>
+    </model>
+    <point id = "VTABLE4_FontS">
+      <label>Fonte de Saída</label>
+      <description>0 - Normal; 1 - Bateria; 2 - Bypass</description>
+      <notes></notes>
+      <symbol id="NORMAL">
+        <label>Normal</label>
+        <description>A fonte de saída está em modo Normal</description>
+        <notes></notes>
+      </symbol>
+      <symbol id="BATERIA">
+        <label>Bateria</label>
+        <description>A fonte de saída está em modo Bateria</description>
+        <notes></notes>
+      </symbol>
+      <symbol id="BYPASS">
+        <label>Bypass</label>
+        <description>A fonte de saída está em modo Bypass</description>
+        <notes></notes>
+      </symbol>
+    </point>
+    <point id = "VTABLE4_FreqS">
+      <label>Frequência de Saída</label>
+      <description>Frequência de saída (0,1 Hz)</description>
+      <notes></notes>
+    </point>
+    <point id = "VTABLE4_NFS">
+      <label>Número de Fases na Saída</label>
+      <description>Número de fases de saída</description>
+      <notes></notes>
+    </point>
+    <point id = "VTABLE4_TS1">
+      <label>Tensão de Saída</label>
+      <description>Tensão da saída auxiliar A (0,1 V)</description>
+      <notes></notes>
+    </point>
+    <point id = "VTABLE4_CS1">
+      <label>Corrente de Saída</label>
+      <description>Corrente da saída auxiliar A (0,1 A)</description>
+      <notes></notes>
+    </point>
+    <point id = "VTABLE4_PAS1">
+      <label>Potência Ativa de Saída</label>
+      <description>Potência ativa da saída auxiliar A (W)</description>
+      <notes></notes>
+    </point>
+    <point id = "VTABLE4_C1">
+      <label>Carga</label>
+      <description>Percentual de potência na saída auxiliar A em relação à potência nominal do conversor</description>
+      <notes></notes>
+    </point>
+    <point id = "VTABLE4_TS2">
+      <label>Tensão de Saída 2</label>
+      <description>Tensão da saída auxiliar B (0,1 V)</description>
+      <notes></notes>
+    </point>
+    <point id = "VTABLE4_CS2">
+      <label>Corrente de Saída 2</label>
+      <description>Corrente da saída auxiliar B (0,1 A)</description>
+      <notes></notes>
+    </point>
+    <point id = "VTABLE4_PAS2">
+      <label>Potência Ativa de Saída 2</label>
+      <description>Potência ativa da saída auxiliar B (W)</description>
+      <notes></notes>
+    </point>
+    <point id = "VTABLE4_C2">
+      <label>Carga 2</label>
+      <description>Percentual de potência na saída auxiliar B em relação à potência nominal do conversor</description>
+      <notes></notes>
+    </point>
+    <point id = "VTABLE4_TS3">
+      <label>Tensão de Saída 3</label>
+      <description>Tensão da saída auxiliar C (0,1 V)</description>
+      <notes></notes>
+    </point>
+    <point id = "VTABLE4_CS3">
+      <label>Corrente de Saída 3</label>
+      <description>Corrente da saída auxiliar C (0,1 A)</description>
+      <notes></notes>
+    </point>
+    <point id = "VTABLE4_PAS3">
+      <label>Potência Ativa de Saída 3</label>
+      <description>Potência ativa da saída auxiliar C (W)</description>
+      <notes></notes>
+    </point>
+    <point id = "VTABLE4_C3">
+      <label>Carga 3</label>
+      <description>Percentual de potência na saída auxiliar C em relação à potência nominal do conversor</description>
+      <notes></notes>
+    </point>
+  </strings>
+</sunSpecModels>

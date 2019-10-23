@@ -1,0 +1,131 @@
+<sunSpecModels v="1">
+  <!-- 65002: st1 -->
+  <model id="65002" len="12" >
+    <block len="12">
+      <point id="VTABLE2_CondB"  offset="0"   type="enum16" mandatory="true" />
+        <symbol id="BOA">0</symbol>
+        <symbol id="FRACA">1</symbol>
+        <symbol id="SUBSTITUIR">2</symbol>
+      <point id="VTABLE2_EB"     offset="1"   type="enum16" mandatory="true" />
+        <symbol id="NORMAL">0</symbol>
+        <symbol id="BAIXA">1</symbol>
+        <symbol id="DESCARREGADA">2</symbol>
+      <point id="VTABLE2_CargB"  offset="2"   type="enum16" mandatory="true" />
+        <symbol id="EM_FLUTUAÇÃO">0</symbol>
+        <symbol id="CARREGANDO">1</symbol>
+        <symbol id="REPOUSO">2</symbol>
+        <symbol id="DESCARREGANDO">3</symbol>
+      <point id="VTABLE2_SMB"    offset="3"   type="uint16" mandatory="true" />
+      <point id="VTABLE2_TA"     offset="4"   type="uint16" mandatory="true" />
+      <point id="VTABLE2_CE"     offset="5"   type="uint16" mandatory="true" />
+      <point id="VTABLE2_TenB"   offset="6"   type="uint16" sf="VTABLE2_FE_T" units="V" mandatory="true" />
+      <point id="VTABLE2_CorrB"  offset="7"   type="int16" sf="VTABLE2_FE_C" units="A" mandatory="true" />
+      <point id="VTABLE2_TempB"  offset="8"   type="uint16" units="C" mandatory="true" />
+      <point id="VTABLE2_FE_T"   offset="9"   type="sunssf"/>
+      <point id="VTABLE2_FE_C"   offset="10"  type="sunssf"/>
+      <point id="VTABLE2_PAD"    offset="11"  type="pad"/>
+    </block>
+  </model>
+  <strings id="65002" locale="pt">
+    <model>
+      <label>Status Grupo 1</label>
+      <description>Esse modelo possui os valores de status grupo 1</description>
+      <notes></notes>
+    </model>
+    <point id="VTABLE2_CondB">
+      <label>Condição da Bateria</label>
+      <description>0 - Boa; 1 - Fraca; 2 - Substituir</description>
+      <notes></notes>
+      <symbol id="BOA">
+        <label>Boa</label>
+        <description>A Bateria está boa</description>
+        <notes></notes>
+      </symbol>
+      <symbol id="FRACA">
+        <label>Fraca</label>
+        <description>A Bateria está fraca</description>
+        <notes></notes>
+      </symbol>
+      <symbol id="SUBSTITUIR">
+        <label>Substituir</label>
+        <description>A Bateria precisa ser substituída</description>
+        <notes></notes>
+      </symbol>
+    </point>
+    <point id="VTABLE2_EB">
+      <label>Estado da Bateria</label>
+      <description>0 - Normal; 1 - Baixa; 2 - Descarregada</description>
+      <notes></notes>
+      <symbol id="NORMAL">
+        <label>Normal</label>
+        <description>O estado da bateria está normal</description>
+        <notes></notes>
+      </symbol>
+      <symbol id="BAIXA">
+        <label>Baixa</label>
+        <description>A Bateria está baixa</description>
+        <notes></notes>
+      </symbol>
+      <symbol id="DESCARREGADA">
+        <label>Descarregada</label>
+        <description>A Bateria está descarregada</description>
+        <notes></notes>
+      </symbol>
+    </point>
+    <point id="VTABLE2_CargB">
+      <label>Carga da Bateria</label>
+      <description>0 - Em flutuação; 1 - Carregando; 2 - Repouso; 3 - Descarregando</description>
+      <notes></notes>
+      <symbol id="EM_FLUTUAÇÃO">
+        <label>Em Flutuação</label>
+        <description>Carga em flutuação</description>
+        <notes></notes>
+      </symbol>
+      <symbol id="CARREGANDO">
+        <label>Carregando</label>
+        <description>Carregando</description>
+        <notes></notes>
+      </symbol>
+      <symbol id="REPOUSO">
+        <label>Repouso</label>
+        <description>Carga em repouso</description>
+        <notes></notes>
+      </symbol>
+      <symbol id="DESCARREGANDO">
+        <label>Descarregando</label>
+        <description>Descarregando</description>
+        <notes></notes>
+      </symbol>
+    </point>
+    <point id="VTABLE2_SMB">
+      <label>Segundos em Modo Bateria</label>
+      <description>Tempo em modo bateria (s)</description>
+      <notes></notes>
+    </point>
+    <point id="VTABLE2_TA">
+      <label>Tempo de Autonomia</label>
+      <description>Tempo de autonomia (min)</description>
+      <notes></notes>
+    </point>
+    <point id="VTABLE2_CE">
+      <label>Carga Estimada</label>
+      <description>Carga na bateria (%)</description>
+      <notes></notes>
+    </point>
+    <point id="VTABLE2_TenB">
+      <label>Tensão da Bateria</label>
+      <description>Tensão do banco de baterias (0,1 V)</description>
+      <notes></notes>
+    </point>
+    <point id="VTABLE2_CorrB">
+      <label>Corrente da Bateria</label>
+      <description>Corrente do banco de baterias (0,1 A)</description>
+      <notes></notes>
+    </point>
+    <point id="VTABLE2_TempB">
+      <label>Temperatura da Bateria</label>
+      <description>Temperatura do banco de baterias (°C)</description>
+      <notes></notes>
+    </point>
+  </strings>
+</sunSpecModels>

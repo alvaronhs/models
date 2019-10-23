@@ -1,0 +1,106 @@
+<sunSpecModels v="1">
+  <!-- 65007: smp -->
+  <model id="65007" len="4" >
+    <block len="4">
+      <point id="VTABLE7_HCE"    offset="0"   type="uint16"     mandatory="true"/>
+      <point id="VTABLE7_TO"     offset="1"   type="uint16"     mandatory="true"/>
+      <point id="VTABLE7_PP"     offset="2"   type="bitfield16" mandatory="true">
+        <symbol id="PAINEL FOTOVOLTAICO">1</symbol>
+        <symbol id="BANCO DE BATERIAS">2</symbol>
+        <symbol id="REDE CA">3</symbol>
+        <symbol id="CARGA NA SAIDA AUXILIAR">4</symbol>
+        <symbol id="CARREGADOR EXTERNO">5</symbol>
+      </point>
+      <point id="VTABLE7_NO"     offset="3"   type="bitfield16" mandatory="true">
+        <symbol id="CONSUMINDO DO PAINEL">1</symbol>
+        <symbol id="CONSUMINDO DA BATERIA">2</symbol>
+        <symbol id="CARREGANDO BATERIA">3</symbol>
+        <symbol id="INJETANDO ENERGIA NA REDE CA">4</symbol>
+        <symbol id="CONSUMINDO ENERGIA DA REDE CA">5</symbol>
+        <symbol id="SUPRINDO CARGA">6</symbol>
+      </point>
+    </block>
+  </model>
+  <strings id="65007" locale="pt">
+    <model>
+      <label>Solar Mode Parameters</label>
+      <description>Esse modelo possui os valores de Solar Mode Parameters</description>
+      <notes></notes>
+    </model>
+    <point id="VTABLE7_HCE">
+      <label>Habilitar comandos externos</label>
+      <description></description>
+      <notes></notes>
+    </point>
+    <point id="VTABLE7_TO">
+      <label>Timeout para comandos externos</label>
+      <description></description>
+      <notes></notes>
+    </point>
+    <point id="VTABLE7_PP">
+      <label>Presença de Periférico</label>
+      <description></description>
+      <notes></notes>
+      <symbol id="PAINEL FOTOVOLTAICO">
+        <label>Painel Fotovoltaico</label>
+        <description>Indica presença de painel</description>
+        <notes></notes>
+      </symbol>
+      <symbol id="BANCO DE BATERIAS">
+        <label>Banco de Baterias</label>
+        <description>Indica presença de baterias</description>
+        <notes></notes>
+      </symbol>
+      <symbol id="REDE CA">
+        <label>Rede CA</label>
+        <description>Indica presença de rede CA</description>
+        <notes></notes>
+      </symbol>
+      <symbol id="CARGA NA SAIDA AUXILIAR">
+        <label>Carga na Saída Auxiliar</label>
+        <description>Indica presença de saída auxiliar</description>
+        <notes></notes>
+      </symbol>
+      <symbol id="CARREGADOR EXTERNO">
+        <label>Carregador Externo</label>
+        <description>Indica presença de carregador externo</description>
+        <notes></notes>
+      </symbol>
+    </point>
+    <point id="VTABLE7_NO">
+      <label>Nível de Operação</label>
+      <description></description>
+      <notes></notes>
+      <symbol id="CONSUMINDO DO PAINEL">
+        <label>Consumindo do Painel</label>
+        <description>Indica fluxo na direção do painel</description>
+        <notes></notes>
+      </symbol>
+      <symbol id="CONSUMINDO DA BATERIA">
+        <label>Consumindo da Bateria</label>
+        <description>Indica fluxo na direção da bateria</description>
+        <notes></notes>
+      </symbol>
+      <symbol id="CARREGANDO BATERIA">
+        <label>Carregando da Bateria</label>
+        <description>Indica fluxo na direção da bateria</description>
+        <notes></notes>
+      </symbol>
+      <symbol id="INJETANDO ENERGIA NA REDE CA">
+        <label>Injetando energia na rede CA</label>
+        <description>Indica fluxo na direção da rede CA</description>
+        <notes></notes>
+      </symbol>
+      <symbol id="CONSUMINDO ENERGIA DA REDE CA">
+        <label>Consumindo energia da rede CA</label>
+        <description>Indica fluxo na direção da rede CA</description>
+        <notes></notes>
+      </symbol>
+      <symbol id="SUPRINDO CARGA">
+        <label>Suprindo Carga</label>
+        <description>Indica fluxo na direção da carga</description>
+        <notes></notes>
+      </symbol>
+    </point>
+  </strings>
+</sunSpecModels>

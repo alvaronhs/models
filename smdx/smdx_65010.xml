@@ -1,0 +1,21 @@
+<sunSpecModels v="1">
+  <!-- 65010: sao -->
+  <model id="65010" len="2" >
+    <block len="2">
+      <point id="VTABLE10_LA"   offset="0"   type="uint16" mandatory="true" />
+      <point id="VTABLE10_PAD"  offset="1"   type="pad" />
+    </block>
+  </model>
+  <strings id="65010" locale="pt">
+    <model>
+      <label>Solar Aux Output</label>
+      <description>Esse modelo possui os valores de Solar Aux Output</description>
+      <notes></notes>
+    </model>
+    <point id="VTABLE10_LA">
+      <label>Liga Auxiliar</label>
+      <description>Acoplamento com a carga na saída auxiliar</description>
+      <notes></notes>
+    </point>
+  </strings>
+</sunSpecModels>

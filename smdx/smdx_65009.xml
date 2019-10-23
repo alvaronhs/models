@@ -1,0 +1,95 @@
+<sunSpecModels v="1">
+  <!-- 65009: sbp -->
+  <model id="65009" len="16" >
+    <block len="16">
+      <point id="VTABLE9_PMD"   offset="0"   type="uint16" mandatory="true"/>
+      <point id="VTABLE9_CC"    offset="1"   type="uint16" sf="VTABLE9_FE_TB" mandatory="true"/>
+      <point id="VTABLE9_TNB"   offset="2"   type="uint16" sf="VTABLE9_FE_T" mandatory="true"/>
+      <point id="VTABLE9_TE"    offset="3"   type="uint16" sf="VTABLE9_FE_T" mandatory="true"/>
+      <point id="VTABLE9_TF"    offset="4"   type="uint16" sf="VTABLE9_FE_T" mandatory="true"/>
+      <point id="VTABLE9_CT"    offset="5"   type="uint16" mandatory="true"/>
+      <point id="VTABLE9_TB"    offset="6"   type="uint16" mandatory="true"/>
+      <point id="VTABLE9_PD"    offset="7"   type="uint16" mandatory="true"/>
+      <point id="VTABLE9_TS"    offset="8"   type="int16" sf="VTABLE9_FE_PP" mandatory="true"/>
+      <point id="VTABLE9_SH"    offset="9"   type="uint16" mandatory="true"/>
+      <point id="VTABLE9_CI"    offset="10"  type="uint16" mandatory="true"/>
+      <point id="VTABLE9_GP"    offset="11"  type="uint16" mandatory="true"/>
+      <point id="VTABLE9_JT"    offset="12"  type="uint16" mandatory="true"/>
+      <point id="VTABLE9_FE_TB" offset="13"  type="sunssf" mandatory="true"/>
+      <point id="VTABLE9_FE_T"  offset="14"  type="sunssf" mandatory="true"/>
+      <point id="VTABLE9_FE_PP" offset="15"  type="sunssf" mandatory="true"/>
+    </block>
+  </model>
+  <strings id="65009" locale="pt">
+    <model>
+      <label>Solar Battery Parameters</label>
+      <description>Esse modelo possui os valores de Solar Battery Parameters</description>
+      <notes></notes>
+    </model>
+    <point id="VTABLE9_PMD">
+      <label>Carga Mínima na bateria</label>
+      <description>Prorcentagem de carga mínima global do banco de baterias  (0 representa descarga total)</description>
+      <notes></notes>
+    </point>
+    <point id="VTABLE9_CC">
+      <label>Capacidade Carga (Tipo Bat.)</label>
+      <description>Valores aceitáveis para a determinação da capacidade das baterias (0,1 Ah)</description>
+      <notes></notes>
+    </point>
+    <point id="VTABLE9_TNB">
+      <label>Tensão Nominal por Bateria</label>
+      <description>Tensão nominal por bateria (0,1 V)</description>
+      <notes></notes>
+    </point>
+    <point id="VTABLE9_TE">
+      <label>Tensão de Equalização</label>
+      <description>Tensão nominal de equalização por bateria (0,1 V)</description>
+      <notes></notes>
+    </point>
+    <point id="VTABLE9_TF">
+      <label>Tensão de Flutuação</label>
+      <description>Tensão nominal de flutuação por bateria (0,1 V)</description>
+      <notes></notes>
+    </point>
+    <point id="VTABLE9_CT">
+      <label>Compensação por Temperatura</label>
+      <description>Compensador de temperatura para a bateria</description>
+      <notes></notes>
+    </point>
+    <point id="VTABLE9_TB">
+      <label>Tipo da Bateria</label>
+      <description>Tipo de bateria: 0 – Chumbo – ácido 1 – Lítio</description>
+      <notes></notes>
+    </point>
+    <point id="VTABLE9_PD">
+      <label>Profundidade de descarga em modo de gerenciamento de energia</label>
+      <description>Porcentagem da profundidade de descarga da bateria quando está operando em modo de gerenciamento de energia  (100 representa descarga total)</description>
+      <notes></notes>
+    </point>
+    <point id="VTABLE9_TS">
+      <label>Potência de carga ou descarga da bateria na rede em modo de gerenciameno de energia  </label>
+      <description>Porcentagem de potência de carga e descarga na bateria para executar a injeção de energia na rede CA através do banco de baterias em relação a potência nominal do equipamento (0,1 %)</description>
+      <notes></notes>
+    </point>
+    <point id="VTABLE9_SH">
+      <label>State of Health</label>
+      <description>Integridade do banco de bateria (%)</description>
+      <notes></notes>
+    </point>
+    <point id="VTABLE9_CI">
+      <label>Ciclagem</label>
+      <description>Ciclagem</description>
+      <notes></notes>
+    </point>
+    <point id="VTABLE9_GP">
+      <label>Gradiente de potência da bateria</label>
+      <description>Tempo de rampa em segundos para o sistema altear a potência de carga/descarga da bateria</description>
+      <notes></notes>
+    </point>
+    <point id="VTABLE9_JT">
+      <label>Janela de tempo para a execução do comando</label>
+      <description>Atraso de tempo em segundos para a execução do comando para entregar ou consumir potência ativa da rede para a bateria</description>
+      <notes></notes>
+    </point>
+  </strings>
+</sunSpecModels>

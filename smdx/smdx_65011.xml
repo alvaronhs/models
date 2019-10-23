@@ -1,0 +1,26 @@
+<sunSpecModels v="1">
+  <!-- 65011: spp -->
+  <model id="65011" len="2" >
+    <block len="2">
+      <point id="VTABLE11_LPAI"   offset="0"  type="uint16"  sf="VTABLE11_FE_PLP" mandatory="true" />
+      <point id="VTABLE11_FE_PLP" offset="1"  type="sunssf"  mandatory="true" />
+    </block>
+  </model>
+  <strings id="65011" locale="pt">
+    <model>
+      <label>Comandos Externos</label>
+      <description>Esse modelo possui os valores de Comandos Externos</description>
+      <notes></notes>
+    </model>
+    <point id="VTABLE11_LPAI">
+      <label>Limitação de Potência do Painel</label>
+      <description>Valor para limitação de potência fornecida pelo painel fotovoltaico em relação a potência nominal do equipamento (0,1 %)</description>
+      <notes></notes>
+    </point>
+    <point id="VTABLE11_FE_PLP">
+      <label>Fator de escala para a porcentagem para a limitação de potência </label>
+      <description>Fator de escala para o parâmetro VTABLE8_LPAI</description>
+      <notes></notes>
+    </point>
+  </strings>
+</sunSpecModels>
